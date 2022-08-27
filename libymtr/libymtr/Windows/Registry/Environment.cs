@@ -10,7 +10,7 @@ using System.Diagnostics;
 using System.Reflection;
 
 namespace libymtr.Windows.Registry {
-    internal class Registry {
+    internal class Environment {
         //  Variable name
         private const string NAME_PATH = "Path";
         //  Message
@@ -26,7 +26,7 @@ namespace libymtr.Windows.Registry {
             Windows.CheckOS();
 
             //  Get values
-            return Environment.GetEnvironmentVariable(varName, target).Split(";");
+            return System.Environment.GetEnvironmentVariable(varName, target).Split(";");
         }
         /// <summary>
         /// Set Environment variables to Registry
@@ -51,7 +51,7 @@ namespace libymtr.Windows.Registry {
 
             //  Set values
             var value = Generic.ConcatByChar(';', valueArray);
-            Environment.SetEnvironmentVariable(varName, value, target);
+            System.Environment.SetEnvironmentVariable(varName, value, target);
             return true;
         }
 
