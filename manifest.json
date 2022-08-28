@@ -1,0 +1,198 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/yamatora/Desktop/dev/PROJECT/libymtr/doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "aLQzJ/qW6OKljukdtlPdx0H9MYkFV7qKGYGb4Hfbs2o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.Generic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.Generic.html",
+          "hash": "7zO2ixeKBIA3uq2DJFtPmfqVRW6P6ypWLH8XmTKrRIw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.Windows.Registry.Environment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.Windows.Registry.Environment.html",
+          "hash": "JwEebNdNBsWq9PhyrMQ1iZhS/yjikOqg/DlYsW1WY6Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.Windows.Registry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.Windows.Registry.html",
+          "hash": "WiyVeav/+o7JHq2z/iIzUzAPVX2TkCPGFP5X50wRnps="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.Windows.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.Windows.Windows.html",
+          "hash": "/K7UolUEjiMh29rF8fuhfmGg15o0mArFcAD2ubESFLA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.Windows.html",
+          "hash": "27lsqH0ckGR3pCxARMAsh7NHFlDD0LTngC0jAc9/jAo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.html",
+          "hash": "TMyQKqqA00zX8f1aykegTWalCHWSIj6CqOmP3grX2FA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "EeFk1aYftV4frs4fDFJWLL6yqENhbeauaormujywea8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "OSjbdWSXFhI200sbMNCC4bhyQ5YIWrIYJ5BSUgHRiIY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "BBlT4M589s4wnVznlDwbhQByOM3zl0xihOsw2CXA6Y8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
+          "skipped_file_count": 6
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
