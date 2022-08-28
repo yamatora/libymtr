@@ -9,7 +9,91 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "8mc44kciHQg1TfYhyAmw5M4cHO52oU3Gz4g0MIUbPko="
+          "hash": "kIqg5sM8X/MY+tuGn4Egue8gpOxiRY0SYxwFZSg2Np8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.Generic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.Generic.html",
+          "hash": "P8tiZYzO1m6MKarZaDwmDmoU8KaHLc3R3NqQhbnJNMA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.Windows.Registry.Environment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.Windows.Registry.Environment.html",
+          "hash": "cMPMohcsAUv/bM+TYQpRd1Lhl3PHogCNTiclQ0Seb2E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.Windows.Registry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.Windows.Registry.html",
+          "hash": "WiyVeav/+o7JHq2z/iIzUzAPVX2TkCPGFP5X50wRnps="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.Windows.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.Windows.Windows.html",
+          "hash": "Jtun4c3p97F/TmWyiAFO6qECctq8BCRk7y+3adndLnk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.Windows.html",
+          "hash": "27lsqH0ckGR3pCxARMAsh7NHFlDD0LTngC0jAc9/jAo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.html",
+          "hash": "TMyQKqqA00zX8f1aykegTWalCHWSIj6CqOmP3grX2FA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "EeFk1aYftV4frs4fDFJWLL6yqENhbeauaormujywea8="
         }
       },
       "is_incremental": false,
@@ -24,7 +108,7 @@
           "hash": "00T9yiEgYEn7xGKQiP8uqhqZ/Bqg61LvYnYoBYKxy+s="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -48,7 +132,7 @@
           "hash": "OlVci/J07z1XgTkcWGlUTmCiZxioMbTvraxTIL5Q8+s="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "4TEgJl9AhuPIoP9weFbgLuRejAX7WRouRdNP0UiX0nY="
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
         }
       },
       "is_incremental": false,
@@ -67,19 +151,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 6,
+          "skipped_file_count": 6
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -92,8 +180,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
