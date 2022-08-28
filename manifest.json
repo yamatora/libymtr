@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/yamatora/Desktop/dev/PROJECT/libymtr/doc",
+  "source_base_path": "C:/Users/yamatora/Desktop/dev/PROJECT/libymtr/src/doc",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,91 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "aLQzJ/qW6OKljukdtlPdx0H9MYkFV7qKGYGb4Hfbs2o="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/libymtr.Generic.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/libymtr.Generic.html",
-          "hash": "7zO2ixeKBIA3uq2DJFtPmfqVRW6P6ypWLH8XmTKrRIw="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/libymtr.Windows.Registry.Environment.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/libymtr.Windows.Registry.Environment.html",
-          "hash": "JwEebNdNBsWq9PhyrMQ1iZhS/yjikOqg/DlYsW1WY6Y="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/libymtr.Windows.Registry.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/libymtr.Windows.Registry.html",
-          "hash": "WiyVeav/+o7JHq2z/iIzUzAPVX2TkCPGFP5X50wRnps="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/libymtr.Windows.Windows.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/libymtr.Windows.Windows.html",
-          "hash": "/K7UolUEjiMh29rF8fuhfmGg15o0mArFcAD2ubESFLA="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/libymtr.Windows.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/libymtr.Windows.html",
-          "hash": "27lsqH0ckGR3pCxARMAsh7NHFlDD0LTngC0jAc9/jAo="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/libymtr.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/libymtr.html",
-          "hash": "TMyQKqqA00zX8f1aykegTWalCHWSIj6CqOmP3grX2FA="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "EeFk1aYftV4frs4fDFJWLL6yqENhbeauaormujywea8="
+          "hash": "8mc44kciHQg1TfYhyAmw5M4cHO52oU3Gz4g0MIUbPko="
         }
       },
       "is_incremental": false,
@@ -105,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "OSjbdWSXFhI200sbMNCC4bhyQ5YIWrIYJ5BSUgHRiIY="
+          "hash": "00T9yiEgYEn7xGKQiP8uqhqZ/Bqg61LvYnYoBYKxy+s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "BBlT4M589s4wnVznlDwbhQByOM3zl0xihOsw2CXA6Y8="
+          "hash": "OlVci/J07z1XgTkcWGlUTmCiZxioMbTvraxTIL5Q8+s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+          "hash": "4TEgJl9AhuPIoP9weFbgLuRejAX7WRouRdNP0UiX0nY="
         }
       },
       "is_incremental": false,
@@ -151,23 +67,19 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 6,
-          "skipped_file_count": 6
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -180,8 +92,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
