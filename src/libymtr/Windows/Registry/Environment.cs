@@ -10,7 +10,7 @@ using System.Diagnostics;
 using System.Reflection;
 
 namespace libymtr.Windows.Registry {
-    internal class Environment {
+    public class Environment {
         //  Variable name
         private const string NAME_PATH = "Path";
         //  Message
