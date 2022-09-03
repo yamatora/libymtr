@@ -4,9 +4,8 @@
       "src": [
         {
           "files": [
-            "libymtr.dll"
-          ],
-          "src": "../libymtr/bin/Release/net6.0",
+            "src/libymtr.dll"
+          ]
         }
       ],
       "dest": "api",

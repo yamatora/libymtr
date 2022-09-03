@@ -8,7 +8,7 @@ namespace libymtr {
     /// <summary>
     /// Generic type function
     /// </summary>
-    public class Generic {
+    public static class Generic {
         /// <summary>
         /// Concat <T> array with splitter
         /// </summary>
