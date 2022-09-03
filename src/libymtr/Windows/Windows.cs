@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace libymtr.Windows {
-    public class Windows {
+    public static class Windows {
         private const string MSG_WINDOWS_ONLY = "Work on Windows only";
         private static Exception WindowsOnlyException {
             get {
