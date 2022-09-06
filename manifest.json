@@ -12,7 +12,7 @@
           "hash": "kIqg5sM8X/MY+tuGn4Egue8gpOxiRY0SYxwFZSg2Np8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -24,7 +24,31 @@
           "hash": "P8tiZYzO1m6MKarZaDwmDmoU8KaHLc3R3NqQhbnJNMA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.Network.ResponseHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.Network.ResponseHandler.html",
+          "hash": "UHIeivIHXB3mmn77uNIX6QH8SvvU1lhHUBRick0tjgQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libymtr.Network.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libymtr.Network.html",
+          "hash": "X5QBXO+Kx1r3EeSs7/ftUbBBl2m0H73/UID6H1KeV78="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +60,7 @@
           "hash": "cMPMohcsAUv/bM+TYQpRd1Lhl3PHogCNTiclQ0Seb2E="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -48,7 +72,7 @@
           "hash": "WiyVeav/+o7JHq2z/iIzUzAPVX2TkCPGFP5X50wRnps="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -60,7 +84,7 @@
           "hash": "Jtun4c3p97F/TmWyiAFO6qECctq8BCRk7y+3adndLnk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -72,7 +96,7 @@
           "hash": "27lsqH0ckGR3pCxARMAsh7NHFlDD0LTngC0jAc9/jAo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,7 +108,7 @@
           "hash": "TMyQKqqA00zX8f1aykegTWalCHWSIj6CqOmP3grX2FA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "EeFk1aYftV4frs4fDFJWLL6yqENhbeauaormujywea8="
+          "hash": "cMpXVjVRWYGmKzM3J8WvZ6rFjYoC66stk3np7/grFzM="
         }
       },
       "is_incremental": false,
@@ -108,7 +132,7 @@
           "hash": "00T9yiEgYEn7xGKQiP8uqhqZ/Bqg61LvYnYoBYKxy+s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -132,7 +156,7 @@
           "hash": "OlVci/J07z1XgTkcWGlUTmCiZxioMbTvraxTIL5Q8+s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -151,23 +175,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 6,
-          "skipped_file_count": 6
+          "total_file_count": 8,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -180,8 +206,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

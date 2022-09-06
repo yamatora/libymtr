@@ -28,6 +28,66 @@ references:
   fullName.vb: libymtr.Generic.ConcatByChar(Of T)(System.Char, T())
   nameWithType: Generic.ConcatByChar<T>(Char, T[])
   nameWithType.vb: Generic.ConcatByChar(Of T)(Char, T())
+- uid: libymtr.Network
+  name: libymtr.Network
+  href: api/libymtr.Network.html
+  commentId: N:libymtr.Network
+  fullName: libymtr.Network
+  nameWithType: libymtr.Network
+- uid: libymtr.Network.ResponseHandler
+  name: ResponseHandler
+  href: api/libymtr.Network.ResponseHandler.html
+  commentId: T:libymtr.Network.ResponseHandler
+  fullName: libymtr.Network.ResponseHandler
+  nameWithType: ResponseHandler
+- uid: libymtr.Network.ResponseHandler.#ctor(System.Object,System.IntPtr)
+  name: ResponseHandler(Object, IntPtr)
+  href: api/libymtr.Network.ResponseHandler.html#libymtr_Network_ResponseHandler__ctor_System_Object_System_IntPtr_
+  commentId: M:libymtr.Network.ResponseHandler.#ctor(System.Object,System.IntPtr)
+  fullName: libymtr.Network.ResponseHandler.ResponseHandler(System.Object, System.IntPtr)
+  nameWithType: ResponseHandler.ResponseHandler(Object, IntPtr)
+- uid: libymtr.Network.ResponseHandler.#ctor*
+  name: ResponseHandler
+  href: api/libymtr.Network.ResponseHandler.html#libymtr_Network_ResponseHandler__ctor_
+  commentId: Overload:libymtr.Network.ResponseHandler.#ctor
+  fullName: libymtr.Network.ResponseHandler.ResponseHandler
+  nameWithType: ResponseHandler.ResponseHandler
+- uid: libymtr.Network.ResponseHandler.BeginInvoke(System.Net.Http.HttpResponseMessage,System.Boolean,System.AsyncCallback,System.Object)
+  name: BeginInvoke(HttpResponseMessage, Boolean, AsyncCallback, Object)
+  href: api/libymtr.Network.ResponseHandler.html#libymtr_Network_ResponseHandler_BeginInvoke_System_Net_Http_HttpResponseMessage_System_Boolean_System_AsyncCallback_System_Object_
+  commentId: M:libymtr.Network.ResponseHandler.BeginInvoke(System.Net.Http.HttpResponseMessage,System.Boolean,System.AsyncCallback,System.Object)
+  fullName: libymtr.Network.ResponseHandler.BeginInvoke(System.Net.Http.HttpResponseMessage, System.Boolean, System.AsyncCallback, System.Object)
+  nameWithType: ResponseHandler.BeginInvoke(HttpResponseMessage, Boolean, AsyncCallback, Object)
+- uid: libymtr.Network.ResponseHandler.BeginInvoke*
+  name: BeginInvoke
+  href: api/libymtr.Network.ResponseHandler.html#libymtr_Network_ResponseHandler_BeginInvoke_
+  commentId: Overload:libymtr.Network.ResponseHandler.BeginInvoke
+  fullName: libymtr.Network.ResponseHandler.BeginInvoke
+  nameWithType: ResponseHandler.BeginInvoke
+- uid: libymtr.Network.ResponseHandler.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/libymtr.Network.ResponseHandler.html#libymtr_Network_ResponseHandler_EndInvoke_System_IAsyncResult_
+  commentId: M:libymtr.Network.ResponseHandler.EndInvoke(System.IAsyncResult)
+  fullName: libymtr.Network.ResponseHandler.EndInvoke(System.IAsyncResult)
+  nameWithType: ResponseHandler.EndInvoke(IAsyncResult)
+- uid: libymtr.Network.ResponseHandler.EndInvoke*
+  name: EndInvoke
+  href: api/libymtr.Network.ResponseHandler.html#libymtr_Network_ResponseHandler_EndInvoke_
+  commentId: Overload:libymtr.Network.ResponseHandler.EndInvoke
+  fullName: libymtr.Network.ResponseHandler.EndInvoke
+  nameWithType: ResponseHandler.EndInvoke
+- uid: libymtr.Network.ResponseHandler.Invoke(System.Net.Http.HttpResponseMessage,System.Boolean)
+  name: Invoke(HttpResponseMessage, Boolean)
+  href: api/libymtr.Network.ResponseHandler.html#libymtr_Network_ResponseHandler_Invoke_System_Net_Http_HttpResponseMessage_System_Boolean_
+  commentId: M:libymtr.Network.ResponseHandler.Invoke(System.Net.Http.HttpResponseMessage,System.Boolean)
+  fullName: libymtr.Network.ResponseHandler.Invoke(System.Net.Http.HttpResponseMessage, System.Boolean)
+  nameWithType: ResponseHandler.Invoke(HttpResponseMessage, Boolean)
+- uid: libymtr.Network.ResponseHandler.Invoke*
+  name: Invoke
+  href: api/libymtr.Network.ResponseHandler.html#libymtr_Network_ResponseHandler_Invoke_
+  commentId: Overload:libymtr.Network.ResponseHandler.Invoke
+  fullName: libymtr.Network.ResponseHandler.Invoke
+  nameWithType: ResponseHandler.Invoke
 - uid: libymtr.Windows
   name: libymtr.Windows
   href: api/libymtr.Windows.html
