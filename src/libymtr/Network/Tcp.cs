@@ -10,7 +10,7 @@ using System.Net;
 using System.Net.Sockets;
 
 namespace libymtr.Network {
-    internal class TcpServer {
+    public class TcpServer {
         public event EventHandler TcpConnected;
 
         private readonly TcpListener m_server;
@@ -46,7 +46,7 @@ namespace libymtr.Network {
             return true;
         }
     }
-    internal class TcpReceiver {
+    public class TcpReceiver {
         private readonly TcpClient m_client;
         private NetworkStream m_stream;
 

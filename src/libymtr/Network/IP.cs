@@ -3,7 +3,7 @@ using System.Net.Sockets;
 using System.Net.NetworkInformation;
 
 namespace libymtr.Network {
-    internal class IP {
+    public class IP {
         /// <summary>
         /// Get Local IPAddress
         /// </summary>

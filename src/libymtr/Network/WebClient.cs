@@ -8,7 +8,7 @@ using System.Net.Http;
 namespace libymtr.Network {
     public delegate void ResponseHandler(HttpResponseMessage message, bool isErro = false);
 
-    internal class WebClient {
+    public class WebClient {
 
 
         public event ResponseHandler OnResponse;
