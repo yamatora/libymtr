@@ -8,7 +8,7 @@ using System.Net.Sockets;
 using System.Net.NetworkInformation;
 
 namespace libymtr.Network {
-    internal class Udp {
+    public class Udp {
         public static async Task Broadcast(byte[] data, int port) {
             string? dst = IP.GetBroadcastAddress();
             if (dst == null) {
