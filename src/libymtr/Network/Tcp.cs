@@ -1,10 +1,12 @@
 ﻿#pragma warning disable CS0168 // 変数は宣言されていますが、使用されていません
+#pragma warning disable CS0649 //
 #pragma warning disable CS8618 // null 非許容のフィールドには、コンストラクターの終了時に null 以外の値が入っていなければなりません。Null 許容として宣言することをご検討ください。
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;

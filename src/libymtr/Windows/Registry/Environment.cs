@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
-using System.Security.Principal;
+//using System.Security.Principal;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
 using System.Reflection;
@@ -40,14 +40,14 @@ namespace libymtr.Windows.Registry {
         public static bool SetEnvirionmentVariable(string varName, string[] valueArray, EnvironmentVariableTarget target = EnvironmentVariableTarget.User, bool forceReboot = false) {
             Windows.CheckOS();
 
-            //  Check running as admin
-            var principal = (WindowsPrincipal)Thread.CurrentPrincipal;
-            if (!principal.IsInRole(WindowsBuiltInRole.Administrator)) {
-                if (forceReboot) {
-                    throw new Exception(MSG_ADMIN_ONLY);
-                }
-                return false;
-            }
+            ////  Check running as admin
+            //var principal = (WindowsPrincipal)Thread.CurrentPrincipal;
+            //if (!principal.IsInRole(WindowsBuiltInRole.Administrator)) {
+            //    if (forceReboot) {
+            //        throw new Exception(MSG_ADMIN_ONLY);
+            //    }
+            //    return false;
+            //}
 
             //  Set values
             var value = Generic.ConcatByChar(';', valueArray);
