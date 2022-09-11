@@ -34,6 +34,48 @@ references:
   commentId: N:libymtr.Network
   fullName: libymtr.Network
   nameWithType: libymtr.Network
+- uid: libymtr.Network.IP
+  name: IP
+  href: api/libymtr.Network.IP.html
+  commentId: T:libymtr.Network.IP
+  fullName: libymtr.Network.IP
+  nameWithType: IP
+- uid: libymtr.Network.IP.#ctor
+  name: IP()
+  href: api/libymtr.Network.IP.html#libymtr_Network_IP__ctor
+  commentId: M:libymtr.Network.IP.#ctor
+  fullName: libymtr.Network.IP.IP()
+  nameWithType: IP.IP()
+- uid: libymtr.Network.IP.#ctor*
+  name: IP
+  href: api/libymtr.Network.IP.html#libymtr_Network_IP__ctor_
+  commentId: Overload:libymtr.Network.IP.#ctor
+  fullName: libymtr.Network.IP.IP
+  nameWithType: IP.IP
+- uid: libymtr.Network.IP.GetBroadcastAddress
+  name: GetBroadcastAddress()
+  href: api/libymtr.Network.IP.html#libymtr_Network_IP_GetBroadcastAddress
+  commentId: M:libymtr.Network.IP.GetBroadcastAddress
+  fullName: libymtr.Network.IP.GetBroadcastAddress()
+  nameWithType: IP.GetBroadcastAddress()
+- uid: libymtr.Network.IP.GetBroadcastAddress*
+  name: GetBroadcastAddress
+  href: api/libymtr.Network.IP.html#libymtr_Network_IP_GetBroadcastAddress_
+  commentId: Overload:libymtr.Network.IP.GetBroadcastAddress
+  fullName: libymtr.Network.IP.GetBroadcastAddress
+  nameWithType: IP.GetBroadcastAddress
+- uid: libymtr.Network.IP.GetLocalIP
+  name: GetLocalIP()
+  href: api/libymtr.Network.IP.html#libymtr_Network_IP_GetLocalIP
+  commentId: M:libymtr.Network.IP.GetLocalIP
+  fullName: libymtr.Network.IP.GetLocalIP()
+  nameWithType: IP.GetLocalIP()
+- uid: libymtr.Network.IP.GetLocalIP*
+  name: GetLocalIP
+  href: api/libymtr.Network.IP.html#libymtr_Network_IP_GetLocalIP_
+  commentId: Overload:libymtr.Network.IP.GetLocalIP
+  fullName: libymtr.Network.IP.GetLocalIP
+  nameWithType: IP.GetLocalIP
 - uid: libymtr.Network.ResponseHandler
   name: ResponseHandler
   href: api/libymtr.Network.ResponseHandler.html
@@ -88,6 +130,234 @@ references:
   commentId: Overload:libymtr.Network.ResponseHandler.Invoke
   fullName: libymtr.Network.ResponseHandler.Invoke
   nameWithType: ResponseHandler.Invoke
+- uid: libymtr.Network.TcpReceiver
+  name: TcpReceiver
+  href: api/libymtr.Network.TcpReceiver.html
+  commentId: T:libymtr.Network.TcpReceiver
+  fullName: libymtr.Network.TcpReceiver
+  nameWithType: TcpReceiver
+- uid: libymtr.Network.TcpReceiver.#ctor
+  name: TcpReceiver()
+  href: api/libymtr.Network.TcpReceiver.html#libymtr_Network_TcpReceiver__ctor
+  commentId: M:libymtr.Network.TcpReceiver.#ctor
+  fullName: libymtr.Network.TcpReceiver.TcpReceiver()
+  nameWithType: TcpReceiver.TcpReceiver()
+- uid: libymtr.Network.TcpReceiver.#ctor*
+  name: TcpReceiver
+  href: api/libymtr.Network.TcpReceiver.html#libymtr_Network_TcpReceiver__ctor_
+  commentId: Overload:libymtr.Network.TcpReceiver.#ctor
+  fullName: libymtr.Network.TcpReceiver.TcpReceiver
+  nameWithType: TcpReceiver.TcpReceiver
+- uid: libymtr.Network.TcpReceiver.Connect(System.String,System.Int32)
+  name: Connect(String, Int32)
+  href: api/libymtr.Network.TcpReceiver.html#libymtr_Network_TcpReceiver_Connect_System_String_System_Int32_
+  commentId: M:libymtr.Network.TcpReceiver.Connect(System.String,System.Int32)
+  fullName: libymtr.Network.TcpReceiver.Connect(System.String, System.Int32)
+  nameWithType: TcpReceiver.Connect(String, Int32)
+- uid: libymtr.Network.TcpReceiver.Connect*
+  name: Connect
+  href: api/libymtr.Network.TcpReceiver.html#libymtr_Network_TcpReceiver_Connect_
+  commentId: Overload:libymtr.Network.TcpReceiver.Connect
+  fullName: libymtr.Network.TcpReceiver.Connect
+  nameWithType: TcpReceiver.Connect
+- uid: libymtr.Network.TcpReceiver.Send(System.Byte[],System.Threading.CancellationToken)
+  name: Send(Byte[], CancellationToken)
+  href: api/libymtr.Network.TcpReceiver.html#libymtr_Network_TcpReceiver_Send_System_Byte___System_Threading_CancellationToken_
+  commentId: M:libymtr.Network.TcpReceiver.Send(System.Byte[],System.Threading.CancellationToken)
+  name.vb: Send(Byte(), CancellationToken)
+  fullName: libymtr.Network.TcpReceiver.Send(System.Byte[], System.Threading.CancellationToken)
+  fullName.vb: libymtr.Network.TcpReceiver.Send(System.Byte(), System.Threading.CancellationToken)
+  nameWithType: TcpReceiver.Send(Byte[], CancellationToken)
+  nameWithType.vb: TcpReceiver.Send(Byte(), CancellationToken)
+- uid: libymtr.Network.TcpReceiver.Send*
+  name: Send
+  href: api/libymtr.Network.TcpReceiver.html#libymtr_Network_TcpReceiver_Send_
+  commentId: Overload:libymtr.Network.TcpReceiver.Send
+  fullName: libymtr.Network.TcpReceiver.Send
+  nameWithType: TcpReceiver.Send
+- uid: libymtr.Network.TcpServer
+  name: TcpServer
+  href: api/libymtr.Network.TcpServer.html
+  commentId: T:libymtr.Network.TcpServer
+  fullName: libymtr.Network.TcpServer
+  nameWithType: TcpServer
+- uid: libymtr.Network.TcpServer.#ctor(System.Int32)
+  name: TcpServer(Int32)
+  href: api/libymtr.Network.TcpServer.html#libymtr_Network_TcpServer__ctor_System_Int32_
+  commentId: M:libymtr.Network.TcpServer.#ctor(System.Int32)
+  fullName: libymtr.Network.TcpServer.TcpServer(System.Int32)
+  nameWithType: TcpServer.TcpServer(Int32)
+- uid: libymtr.Network.TcpServer.#ctor*
+  name: TcpServer
+  href: api/libymtr.Network.TcpServer.html#libymtr_Network_TcpServer__ctor_
+  commentId: Overload:libymtr.Network.TcpServer.#ctor
+  fullName: libymtr.Network.TcpServer.TcpServer
+  nameWithType: TcpServer.TcpServer
+- uid: libymtr.Network.TcpServer.Send(System.Byte[],System.Threading.CancellationToken)
+  name: Send(Byte[], CancellationToken)
+  href: api/libymtr.Network.TcpServer.html#libymtr_Network_TcpServer_Send_System_Byte___System_Threading_CancellationToken_
+  commentId: M:libymtr.Network.TcpServer.Send(System.Byte[],System.Threading.CancellationToken)
+  name.vb: Send(Byte(), CancellationToken)
+  fullName: libymtr.Network.TcpServer.Send(System.Byte[], System.Threading.CancellationToken)
+  fullName.vb: libymtr.Network.TcpServer.Send(System.Byte(), System.Threading.CancellationToken)
+  nameWithType: TcpServer.Send(Byte[], CancellationToken)
+  nameWithType.vb: TcpServer.Send(Byte(), CancellationToken)
+- uid: libymtr.Network.TcpServer.Send*
+  name: Send
+  href: api/libymtr.Network.TcpServer.html#libymtr_Network_TcpServer_Send_
+  commentId: Overload:libymtr.Network.TcpServer.Send
+  fullName: libymtr.Network.TcpServer.Send
+  nameWithType: TcpServer.Send
+- uid: libymtr.Network.TcpServer.TcpConnected
+  name: TcpConnected
+  href: api/libymtr.Network.TcpServer.html#libymtr_Network_TcpServer_TcpConnected
+  commentId: E:libymtr.Network.TcpServer.TcpConnected
+  fullName: libymtr.Network.TcpServer.TcpConnected
+  nameWithType: TcpServer.TcpConnected
+- uid: libymtr.Network.TcpServer.WaitConnection
+  name: WaitConnection()
+  href: api/libymtr.Network.TcpServer.html#libymtr_Network_TcpServer_WaitConnection
+  commentId: M:libymtr.Network.TcpServer.WaitConnection
+  fullName: libymtr.Network.TcpServer.WaitConnection()
+  nameWithType: TcpServer.WaitConnection()
+- uid: libymtr.Network.TcpServer.WaitConnection*
+  name: WaitConnection
+  href: api/libymtr.Network.TcpServer.html#libymtr_Network_TcpServer_WaitConnection_
+  commentId: Overload:libymtr.Network.TcpServer.WaitConnection
+  fullName: libymtr.Network.TcpServer.WaitConnection
+  nameWithType: TcpServer.WaitConnection
+- uid: libymtr.Network.Udp
+  name: Udp
+  href: api/libymtr.Network.Udp.html
+  commentId: T:libymtr.Network.Udp
+  fullName: libymtr.Network.Udp
+  nameWithType: Udp
+- uid: libymtr.Network.Udp.#ctor
+  name: Udp()
+  href: api/libymtr.Network.Udp.html#libymtr_Network_Udp__ctor
+  commentId: M:libymtr.Network.Udp.#ctor
+  fullName: libymtr.Network.Udp.Udp()
+  nameWithType: Udp.Udp()
+- uid: libymtr.Network.Udp.#ctor*
+  name: Udp
+  href: api/libymtr.Network.Udp.html#libymtr_Network_Udp__ctor_
+  commentId: Overload:libymtr.Network.Udp.#ctor
+  fullName: libymtr.Network.Udp.Udp
+  nameWithType: Udp.Udp
+- uid: libymtr.Network.Udp.Broadcast(System.Byte[],System.Int32)
+  name: Broadcast(Byte[], Int32)
+  href: api/libymtr.Network.Udp.html#libymtr_Network_Udp_Broadcast_System_Byte___System_Int32_
+  commentId: M:libymtr.Network.Udp.Broadcast(System.Byte[],System.Int32)
+  name.vb: Broadcast(Byte(), Int32)
+  fullName: libymtr.Network.Udp.Broadcast(System.Byte[], System.Int32)
+  fullName.vb: libymtr.Network.Udp.Broadcast(System.Byte(), System.Int32)
+  nameWithType: Udp.Broadcast(Byte[], Int32)
+  nameWithType.vb: Udp.Broadcast(Byte(), Int32)
+- uid: libymtr.Network.Udp.Broadcast*
+  name: Broadcast
+  href: api/libymtr.Network.Udp.html#libymtr_Network_Udp_Broadcast_
+  commentId: Overload:libymtr.Network.Udp.Broadcast
+  fullName: libymtr.Network.Udp.Broadcast
+  nameWithType: Udp.Broadcast
+- uid: libymtr.Network.Udp.SingleShot(System.Byte[],System.Net.IPAddress,System.Int32)
+  name: SingleShot(Byte[], IPAddress, Int32)
+  href: api/libymtr.Network.Udp.html#libymtr_Network_Udp_SingleShot_System_Byte___System_Net_IPAddress_System_Int32_
+  commentId: M:libymtr.Network.Udp.SingleShot(System.Byte[],System.Net.IPAddress,System.Int32)
+  name.vb: SingleShot(Byte(), IPAddress, Int32)
+  fullName: libymtr.Network.Udp.SingleShot(System.Byte[], System.Net.IPAddress, System.Int32)
+  fullName.vb: libymtr.Network.Udp.SingleShot(System.Byte(), System.Net.IPAddress, System.Int32)
+  nameWithType: Udp.SingleShot(Byte[], IPAddress, Int32)
+  nameWithType.vb: Udp.SingleShot(Byte(), IPAddress, Int32)
+- uid: libymtr.Network.Udp.SingleShot*
+  name: SingleShot
+  href: api/libymtr.Network.Udp.html#libymtr_Network_Udp_SingleShot_
+  commentId: Overload:libymtr.Network.Udp.SingleShot
+  fullName: libymtr.Network.Udp.SingleShot
+  nameWithType: Udp.SingleShot
+- uid: libymtr.Network.WebClient
+  name: WebClient
+  href: api/libymtr.Network.WebClient.html
+  commentId: T:libymtr.Network.WebClient
+  fullName: libymtr.Network.WebClient
+  nameWithType: WebClient
+- uid: libymtr.Network.WebClient.#ctor(System.Int32)
+  name: WebClient(Int32)
+  href: api/libymtr.Network.WebClient.html#libymtr_Network_WebClient__ctor_System_Int32_
+  commentId: M:libymtr.Network.WebClient.#ctor(System.Int32)
+  fullName: libymtr.Network.WebClient.WebClient(System.Int32)
+  nameWithType: WebClient.WebClient(Int32)
+- uid: libymtr.Network.WebClient.#ctor*
+  name: WebClient
+  href: api/libymtr.Network.WebClient.html#libymtr_Network_WebClient__ctor_
+  commentId: Overload:libymtr.Network.WebClient.#ctor
+  fullName: libymtr.Network.WebClient.WebClient
+  nameWithType: WebClient.WebClient
+- uid: libymtr.Network.WebClient.add_OnResponse(libymtr.Network.ResponseHandler)
+  name: add_OnResponse(ResponseHandler)
+  href: api/libymtr.Network.WebClient.html#libymtr_Network_WebClient_add_OnResponse_libymtr_Network_ResponseHandler_
+  commentId: M:libymtr.Network.WebClient.add_OnResponse(libymtr.Network.ResponseHandler)
+  fullName: libymtr.Network.WebClient.add_OnResponse(libymtr.Network.ResponseHandler)
+  nameWithType: WebClient.add_OnResponse(ResponseHandler)
+- uid: libymtr.Network.WebClient.add_OnResponse*
+  name: add_OnResponse
+  href: api/libymtr.Network.WebClient.html#libymtr_Network_WebClient_add_OnResponse_
+  commentId: Overload:libymtr.Network.WebClient.add_OnResponse
+  fullName: libymtr.Network.WebClient.add_OnResponse
+  nameWithType: WebClient.add_OnResponse
+- uid: libymtr.Network.WebClient.Cancel
+  name: Cancel()
+  href: api/libymtr.Network.WebClient.html#libymtr_Network_WebClient_Cancel
+  commentId: M:libymtr.Network.WebClient.Cancel
+  fullName: libymtr.Network.WebClient.Cancel()
+  nameWithType: WebClient.Cancel()
+- uid: libymtr.Network.WebClient.Cancel*
+  name: Cancel
+  href: api/libymtr.Network.WebClient.html#libymtr_Network_WebClient_Cancel_
+  commentId: Overload:libymtr.Network.WebClient.Cancel
+  fullName: libymtr.Network.WebClient.Cancel
+  nameWithType: WebClient.Cancel
+- uid: libymtr.Network.WebClient.Finalize
+  name: Finalize()
+  href: api/libymtr.Network.WebClient.html#libymtr_Network_WebClient_Finalize
+  commentId: M:libymtr.Network.WebClient.Finalize
+  fullName: libymtr.Network.WebClient.Finalize()
+  nameWithType: WebClient.Finalize()
+- uid: libymtr.Network.WebClient.Finalize*
+  name: Finalize
+  href: api/libymtr.Network.WebClient.html#libymtr_Network_WebClient_Finalize_
+  commentId: Overload:libymtr.Network.WebClient.Finalize
+  fullName: libymtr.Network.WebClient.Finalize
+  nameWithType: WebClient.Finalize
+- uid: libymtr.Network.WebClient.OnResponse
+  name: OnResponse
+  href: api/libymtr.Network.WebClient.html#libymtr_Network_WebClient_OnResponse
+  commentId: E:libymtr.Network.WebClient.OnResponse
+  fullName: libymtr.Network.WebClient.OnResponse
+  nameWithType: WebClient.OnResponse
+- uid: libymtr.Network.WebClient.remove_OnResponse(libymtr.Network.ResponseHandler)
+  name: remove_OnResponse(ResponseHandler)
+  href: api/libymtr.Network.WebClient.html#libymtr_Network_WebClient_remove_OnResponse_libymtr_Network_ResponseHandler_
+  commentId: M:libymtr.Network.WebClient.remove_OnResponse(libymtr.Network.ResponseHandler)
+  fullName: libymtr.Network.WebClient.remove_OnResponse(libymtr.Network.ResponseHandler)
+  nameWithType: WebClient.remove_OnResponse(ResponseHandler)
+- uid: libymtr.Network.WebClient.remove_OnResponse*
+  name: remove_OnResponse
+  href: api/libymtr.Network.WebClient.html#libymtr_Network_WebClient_remove_OnResponse_
+  commentId: Overload:libymtr.Network.WebClient.remove_OnResponse
+  fullName: libymtr.Network.WebClient.remove_OnResponse
+  nameWithType: WebClient.remove_OnResponse
+- uid: libymtr.Network.WebClient.SendAsync(System.Net.Http.HttpRequestMessage)
+  name: SendAsync(HttpRequestMessage)
+  href: api/libymtr.Network.WebClient.html#libymtr_Network_WebClient_SendAsync_System_Net_Http_HttpRequestMessage_
+  commentId: M:libymtr.Network.WebClient.SendAsync(System.Net.Http.HttpRequestMessage)
+  fullName: libymtr.Network.WebClient.SendAsync(System.Net.Http.HttpRequestMessage)
+  nameWithType: WebClient.SendAsync(HttpRequestMessage)
+- uid: libymtr.Network.WebClient.SendAsync*
+  name: SendAsync
+  href: api/libymtr.Network.WebClient.html#libymtr_Network_WebClient_SendAsync_
+  commentId: Overload:libymtr.Network.WebClient.SendAsync
+  fullName: libymtr.Network.WebClient.SendAsync
+  nameWithType: WebClient.SendAsync
 - uid: libymtr.Windows
   name: libymtr.Windows
   href: api/libymtr.Windows.html
