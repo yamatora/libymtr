@@ -11,6 +11,33 @@ namespace libymtr {
     /// </summary>
     public static class Generic {
         /// <summary>
+        /// Return subarray after offset
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="src"></param>
+        /// <param name="offset"></param>
+        /// <returns></returns>
+        public static T[] GetPart<T>(T[] src, int offset) {
+            return GetPart(src, offset, src.Length - offset);
+        }
+        /// <summary>
+        /// Return subarray of specified length from offset
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="src"></param>
+        /// <param name="offset"></param>
+        /// <param name="length"></param>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
+        public static T[] GetPart<T>(T[] src, int offset, int length) {
+            if (src.Length - length < offset) {
+                throw new Exception("GetPart: Over size");
+            }
+            T[] result = new T[length];
+            Buffer.BlockCopy(src, offset, result, 0, length);
+            return result;
+        }
+        /// <summary>
         /// Concat <T> array with splitter
         /// </summary>
         /// <typeparam name="T"></typeparam>
@@ -29,7 +56,6 @@ namespace libymtr {
             }
             return result;
         }
-
         /// <summary>
         /// Concat T[] array
         /// </summary>
@@ -45,6 +71,16 @@ namespace libymtr {
                 p += array.Length;
             }
             return result;
+        }
+        /// <summary>
+        /// Compare T[]
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public static bool IsEqualArray<T>(T[] a, T[] b) {
+            return Enumerable.SequenceEqual(a, b);
         }
     }
 }
