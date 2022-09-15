@@ -13,6 +13,21 @@ references:
   commentId: T:libymtr.Generic
   fullName: libymtr.Generic
   nameWithType: Generic
+- uid: libymtr.Generic.ConcatArray*
+  name: ConcatArray
+  href: api/libymtr.Generic.html#libymtr_Generic_ConcatArray_
+  commentId: Overload:libymtr.Generic.ConcatArray
+  fullName: libymtr.Generic.ConcatArray
+  nameWithType: Generic.ConcatArray
+- uid: libymtr.Generic.ConcatArray``1(``0[][])
+  name: ConcatArray<T>(T[][])
+  href: api/libymtr.Generic.html#libymtr_Generic_ConcatArray__1___0_____
+  commentId: M:libymtr.Generic.ConcatArray``1(``0[][])
+  name.vb: ConcatArray(Of T)(T()())
+  fullName: libymtr.Generic.ConcatArray<T>(T[][])
+  fullName.vb: libymtr.Generic.ConcatArray(Of T)(T()())
+  nameWithType: Generic.ConcatArray<T>(T[][])
+  nameWithType.vb: Generic.ConcatArray(Of T)(T()())
 - uid: libymtr.Generic.ConcatByChar*
   name: ConcatByChar
   href: api/libymtr.Generic.html#libymtr_Generic_ConcatByChar_
@@ -28,6 +43,147 @@ references:
   fullName.vb: libymtr.Generic.ConcatByChar(Of T)(System.Char, T())
   nameWithType: Generic.ConcatByChar<T>(Char, T[])
   nameWithType.vb: Generic.ConcatByChar(Of T)(Char, T())
+- uid: libymtr.Generic.GetPart*
+  name: GetPart
+  href: api/libymtr.Generic.html#libymtr_Generic_GetPart_
+  commentId: Overload:libymtr.Generic.GetPart
+  fullName: libymtr.Generic.GetPart
+  nameWithType: Generic.GetPart
+- uid: libymtr.Generic.GetPart``1(``0[],System.Int32)
+  name: GetPart<T>(T[], Int32)
+  href: api/libymtr.Generic.html#libymtr_Generic_GetPart__1___0___System_Int32_
+  commentId: M:libymtr.Generic.GetPart``1(``0[],System.Int32)
+  name.vb: GetPart(Of T)(T(), Int32)
+  fullName: libymtr.Generic.GetPart<T>(T[], System.Int32)
+  fullName.vb: libymtr.Generic.GetPart(Of T)(T(), System.Int32)
+  nameWithType: Generic.GetPart<T>(T[], Int32)
+  nameWithType.vb: Generic.GetPart(Of T)(T(), Int32)
+- uid: libymtr.Generic.GetPart``1(``0[],System.Int32,System.Int32)
+  name: GetPart<T>(T[], Int32, Int32)
+  href: api/libymtr.Generic.html#libymtr_Generic_GetPart__1___0___System_Int32_System_Int32_
+  commentId: M:libymtr.Generic.GetPart``1(``0[],System.Int32,System.Int32)
+  name.vb: GetPart(Of T)(T(), Int32, Int32)
+  fullName: libymtr.Generic.GetPart<T>(T[], System.Int32, System.Int32)
+  fullName.vb: libymtr.Generic.GetPart(Of T)(T(), System.Int32, System.Int32)
+  nameWithType: Generic.GetPart<T>(T[], Int32, Int32)
+  nameWithType.vb: Generic.GetPart(Of T)(T(), Int32, Int32)
+- uid: libymtr.Generic.IsEqualArray*
+  name: IsEqualArray
+  href: api/libymtr.Generic.html#libymtr_Generic_IsEqualArray_
+  commentId: Overload:libymtr.Generic.IsEqualArray
+  fullName: libymtr.Generic.IsEqualArray
+  nameWithType: Generic.IsEqualArray
+- uid: libymtr.Generic.IsEqualArray``1(``0[],``0[])
+  name: IsEqualArray<T>(T[], T[])
+  href: api/libymtr.Generic.html#libymtr_Generic_IsEqualArray__1___0_____0___
+  commentId: M:libymtr.Generic.IsEqualArray``1(``0[],``0[])
+  name.vb: IsEqualArray(Of T)(T(), T())
+  fullName: libymtr.Generic.IsEqualArray<T>(T[], T[])
+  fullName.vb: libymtr.Generic.IsEqualArray(Of T)(T(), T())
+  nameWithType: Generic.IsEqualArray<T>(T[], T[])
+  nameWithType.vb: Generic.IsEqualArray(Of T)(T(), T())
+- uid: libymtr.IO
+  name: libymtr.IO
+  href: api/libymtr.IO.html
+  commentId: N:libymtr.IO
+  fullName: libymtr.IO
+  nameWithType: libymtr.IO
+- uid: libymtr.IO.Data
+  name: Data
+  href: api/libymtr.IO.Data.html
+  commentId: T:libymtr.IO.Data
+  fullName: libymtr.IO.Data
+  nameWithType: Data
+- uid: libymtr.IO.Data.BinaryToObject(System.Byte[])
+  name: BinaryToObject(Byte[])
+  href: api/libymtr.IO.Data.html#libymtr_IO_Data_BinaryToObject_System_Byte___
+  commentId: M:libymtr.IO.Data.BinaryToObject(System.Byte[])
+  name.vb: BinaryToObject(Byte())
+  fullName: libymtr.IO.Data.BinaryToObject(System.Byte[])
+  fullName.vb: libymtr.IO.Data.BinaryToObject(System.Byte())
+  nameWithType: Data.BinaryToObject(Byte[])
+  nameWithType.vb: Data.BinaryToObject(Byte())
+- uid: libymtr.IO.Data.BinaryToObject*
+  name: BinaryToObject
+  href: api/libymtr.IO.Data.html#libymtr_IO_Data_BinaryToObject_
+  commentId: Overload:libymtr.IO.Data.BinaryToObject
+  fullName: libymtr.IO.Data.BinaryToObject
+  nameWithType: Data.BinaryToObject
+- uid: libymtr.IO.Data.Decrypt(System.Byte[],System.String,System.Security.Cryptography.CipherMode)
+  name: Decrypt(Byte[], String, CipherMode)
+  href: api/libymtr.IO.Data.html#libymtr_IO_Data_Decrypt_System_Byte___System_String_System_Security_Cryptography_CipherMode_
+  commentId: M:libymtr.IO.Data.Decrypt(System.Byte[],System.String,System.Security.Cryptography.CipherMode)
+  name.vb: Decrypt(Byte(), String, CipherMode)
+  fullName: libymtr.IO.Data.Decrypt(System.Byte[], System.String, System.Security.Cryptography.CipherMode)
+  fullName.vb: libymtr.IO.Data.Decrypt(System.Byte(), System.String, System.Security.Cryptography.CipherMode)
+  nameWithType: Data.Decrypt(Byte[], String, CipherMode)
+  nameWithType.vb: Data.Decrypt(Byte(), String, CipherMode)
+- uid: libymtr.IO.Data.Decrypt*
+  name: Decrypt
+  href: api/libymtr.IO.Data.html#libymtr_IO_Data_Decrypt_
+  commentId: Overload:libymtr.IO.Data.Decrypt
+  fullName: libymtr.IO.Data.Decrypt
+  nameWithType: Data.Decrypt
+- uid: libymtr.IO.Data.Encrypt(System.Byte[],System.String,System.Security.Cryptography.CipherMode)
+  name: Encrypt(Byte[], String, CipherMode)
+  href: api/libymtr.IO.Data.html#libymtr_IO_Data_Encrypt_System_Byte___System_String_System_Security_Cryptography_CipherMode_
+  commentId: M:libymtr.IO.Data.Encrypt(System.Byte[],System.String,System.Security.Cryptography.CipherMode)
+  name.vb: Encrypt(Byte(), String, CipherMode)
+  fullName: libymtr.IO.Data.Encrypt(System.Byte[], System.String, System.Security.Cryptography.CipherMode)
+  fullName.vb: libymtr.IO.Data.Encrypt(System.Byte(), System.String, System.Security.Cryptography.CipherMode)
+  nameWithType: Data.Encrypt(Byte[], String, CipherMode)
+  nameWithType.vb: Data.Encrypt(Byte(), String, CipherMode)
+- uid: libymtr.IO.Data.Encrypt*
+  name: Encrypt
+  href: api/libymtr.IO.Data.html#libymtr_IO_Data_Encrypt_
+  commentId: Overload:libymtr.IO.Data.Encrypt
+  fullName: libymtr.IO.Data.Encrypt
+  nameWithType: Data.Encrypt
+- uid: libymtr.IO.Data.ObjectToBinary(System.Object)
+  name: ObjectToBinary(Object)
+  href: api/libymtr.IO.Data.html#libymtr_IO_Data_ObjectToBinary_System_Object_
+  commentId: M:libymtr.IO.Data.ObjectToBinary(System.Object)
+  fullName: libymtr.IO.Data.ObjectToBinary(System.Object)
+  nameWithType: Data.ObjectToBinary(Object)
+- uid: libymtr.IO.Data.ObjectToBinary*
+  name: ObjectToBinary
+  href: api/libymtr.IO.Data.html#libymtr_IO_Data_ObjectToBinary_
+  commentId: Overload:libymtr.IO.Data.ObjectToBinary
+  fullName: libymtr.IO.Data.ObjectToBinary
+  nameWithType: Data.ObjectToBinary
+- uid: libymtr.IO.File
+  name: File
+  href: api/libymtr.IO.File.html
+  commentId: T:libymtr.IO.File
+  fullName: libymtr.IO.File
+  nameWithType: File
+- uid: libymtr.IO.File.ConcatPath(System.String,System.String)
+  name: ConcatPath(String, String)
+  href: api/libymtr.IO.File.html#libymtr_IO_File_ConcatPath_System_String_System_String_
+  commentId: M:libymtr.IO.File.ConcatPath(System.String,System.String)
+  fullName: libymtr.IO.File.ConcatPath(System.String, System.String)
+  nameWithType: File.ConcatPath(String, String)
+- uid: libymtr.IO.File.ConcatPath*
+  name: ConcatPath
+  href: api/libymtr.IO.File.html#libymtr_IO_File_ConcatPath_
+  commentId: Overload:libymtr.IO.File.ConcatPath
+  fullName: libymtr.IO.File.ConcatPath
+  nameWithType: File.ConcatPath
+- uid: libymtr.IO.File.WriteBinary(System.Byte[],System.String,System.Boolean)
+  name: WriteBinary(Byte[], String, Boolean)
+  href: api/libymtr.IO.File.html#libymtr_IO_File_WriteBinary_System_Byte___System_String_System_Boolean_
+  commentId: M:libymtr.IO.File.WriteBinary(System.Byte[],System.String,System.Boolean)
+  name.vb: WriteBinary(Byte(), String, Boolean)
+  fullName: libymtr.IO.File.WriteBinary(System.Byte[], System.String, System.Boolean)
+  fullName.vb: libymtr.IO.File.WriteBinary(System.Byte(), System.String, System.Boolean)
+  nameWithType: File.WriteBinary(Byte[], String, Boolean)
+  nameWithType.vb: File.WriteBinary(Byte(), String, Boolean)
+- uid: libymtr.IO.File.WriteBinary*
+  name: WriteBinary
+  href: api/libymtr.IO.File.html#libymtr_IO_File_WriteBinary_
+  commentId: Overload:libymtr.IO.File.WriteBinary
+  fullName: libymtr.IO.File.WriteBinary
+  nameWithType: File.WriteBinary
 - uid: libymtr.Network
   name: libymtr.Network
   href: api/libymtr.Network.html

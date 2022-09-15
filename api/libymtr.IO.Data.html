@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Generic
+    <title>Class Data
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Generic
+    <meta name="title" content="Class Data
    ">
     <meta name="generator" content="docfx 2.59.3.0">
     
@@ -68,35 +68,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="libymtr.Generic">
+            <article class="content wrap" id="_content" data-uid="libymtr.IO.Data">
   
   
-  <h1 id="libymtr_Generic" data-uid="libymtr.Generic" class="text-break">Class Generic
+  <h1 id="libymtr_IO_Data" data-uid="libymtr.IO.Data" class="text-break">Class Data
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Generic</span></div>
+    <div class="level1"><span class="xref">Data</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="libymtr.html">libymtr</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="libymtr.IO.html">libymtr.IO</a></h6>
   <h6><strong>Assembly</strong>: libymtr.dll</h6>
-  <h5 id="libymtr_Generic_syntax">Syntax</h5>
+  <h5 id="libymtr_IO_Data_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Generic : Object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class Data : Object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="libymtr_Generic_ConcatArray_" data-uid="libymtr.Generic.ConcatArray*"></a>
-  <h4 id="libymtr_Generic_ConcatArray__1___0_____" data-uid="libymtr.Generic.ConcatArray``1(``0[][])">ConcatArray&lt;T&gt;(T[][])</h4>
+  <a id="libymtr_IO_Data_BinaryToObject_" data-uid="libymtr.IO.Data.BinaryToObject*"></a>
+  <h4 id="libymtr_IO_Data_BinaryToObject_System_Byte___" data-uid="libymtr.IO.Data.BinaryToObject(System.Byte[])">BinaryToObject(Byte[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T[] ConcatArray&lt;T&gt;(params T[][] arrays)</code></pre>
+    <pre><code class="lang-csharp hljs">public static object BinaryToObject(byte[] bytes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -109,8 +109,8 @@
     </thead>
     <tbody>
       <tr>
-        <td>T[][]</td>
-        <td><span class="parametername">arrays</span></td>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bytes</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -125,35 +125,20 @@
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
+        <td><span class="xref">System.Object</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="libymtr_Generic_ConcatByChar_" data-uid="libymtr.Generic.ConcatByChar*"></a>
-  <h4 id="libymtr_Generic_ConcatByChar__1_System_Char___0___" data-uid="libymtr.Generic.ConcatByChar``1(System.Char,``0[])">ConcatByChar&lt;T&gt;(Char, T[])</h4>
+  <a id="libymtr_IO_Data_Decrypt_" data-uid="libymtr.IO.Data.Decrypt*"></a>
+  <h4 id="libymtr_IO_Data_Decrypt_System_Byte___System_String_System_Security_Cryptography_CipherMode_" data-uid="libymtr.IO.Data.Decrypt(System.Byte[],System.String,System.Security.Cryptography.CipherMode)">Decrypt(Byte[], String, CipherMode)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ConcatByChar&lt;T&gt;(char splitter, params T[] array)</code></pre>
+    <pre><code class="lang-csharp hljs">public static byte[] Decrypt(byte[] data, string password, CipherMode mode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -166,75 +151,18 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Char</span></td>
-        <td><span class="parametername">splitter</span></td>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
         <td></td>
       </tr>
-      <tr>
-        <td>T[]</td>
-        <td><span class="parametername">array</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="libymtr_Generic_GetPart_" data-uid="libymtr.Generic.GetPart*"></a>
-  <h4 id="libymtr_Generic_GetPart__1___0___System_Int32_" data-uid="libymtr.Generic.GetPart``1(``0[],System.Int32)">GetPart&lt;T&gt;(T[], Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T[] GetPart&lt;T&gt;(T[] src, int offset)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>T[]</td>
-        <td><span class="parametername">src</span></td>
+        <td><span class="parametername">password</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">offset</span></td>
+        <td><span class="xref">System.Security.Cryptography.CipherMode</span></td>
+        <td><span class="parametername">mode</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -249,35 +177,20 @@
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
+        <td><span class="xref">System.Byte</span>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="libymtr_Generic_GetPart_" data-uid="libymtr.Generic.GetPart*"></a>
-  <h4 id="libymtr_Generic_GetPart__1___0___System_Int32_System_Int32_" data-uid="libymtr.Generic.GetPart``1(``0[],System.Int32,System.Int32)">GetPart&lt;T&gt;(T[], Int32, Int32)</h4>
+  <a id="libymtr_IO_Data_Encrypt_" data-uid="libymtr.IO.Data.Encrypt*"></a>
+  <h4 id="libymtr_IO_Data_Encrypt_System_Byte___System_String_System_Security_Cryptography_CipherMode_" data-uid="libymtr.IO.Data.Encrypt(System.Byte[],System.String,System.Security.Cryptography.CipherMode)">Encrypt(Byte[], String, CipherMode)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T[] GetPart&lt;T&gt;(T[] src, int offset, int length)</code></pre>
+    <pre><code class="lang-csharp hljs">public static byte[] Encrypt(byte[] data, string password, CipherMode mode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -290,18 +203,18 @@
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
-        <td><span class="parametername">src</span></td>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">offset</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">password</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">length</span></td>
+        <td><span class="xref">System.Security.Cryptography.CipherMode</span></td>
+        <td><span class="parametername">mode</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -316,35 +229,20 @@
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
+        <td><span class="xref">System.Byte</span>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="libymtr_Generic_IsEqualArray_" data-uid="libymtr.Generic.IsEqualArray*"></a>
-  <h4 id="libymtr_Generic_IsEqualArray__1___0_____0___" data-uid="libymtr.Generic.IsEqualArray``1(``0[],``0[])">IsEqualArray&lt;T&gt;(T[], T[])</h4>
+  <a id="libymtr_IO_Data_ObjectToBinary_" data-uid="libymtr.IO.Data.ObjectToBinary*"></a>
+  <h4 id="libymtr_IO_Data_ObjectToBinary_System_Object_" data-uid="libymtr.IO.Data.ObjectToBinary(System.Object)">ObjectToBinary(Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsEqualArray&lt;T&gt;(T[] a, T[] b)</code></pre>
+    <pre><code class="lang-csharp hljs">public static byte[] ObjectToBinary(object obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -357,13 +255,8 @@
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
-        <td><span class="parametername">a</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>T[]</td>
-        <td><span class="parametername">b</span></td>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -378,22 +271,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
+        <td><span class="xref">System.Byte</span>[]</td>
         <td></td>
       </tr>
     </tbody>
